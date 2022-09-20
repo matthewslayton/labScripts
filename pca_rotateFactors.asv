@@ -1,0 +1,8 @@
+% don't forget that mds_practice.m in ../STAMP/STAMP_scripts has the PCA
+% stuff
+
+
+load 'all_score.mat' %this is a 995x994 double that contains the 995 score (coordinate) values
+% for all 994 PCs. Probably won't use that many, but we have it. The var name is 'score'
+
+first_three = score(:,1:3);

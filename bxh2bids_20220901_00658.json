@@ -1,0 +1,21 @@
+{
+"sub": "5005",
+"ses": "3",
+"funcs": {
+          "###": {
+                    "acq": "fMRI task (x3)",
+                    "ignore": "yes"}
+
+          },
+"anats": {
+          "007":    {
+                    "acq": "3D Ax T1 MPRAGE",
+                    "run": "01"
+                    }
+        },
+"dwis": {
+          "###":    {
+                    "acq": "dwi",
+                    "ignore": "yes"}
+          }
+}
